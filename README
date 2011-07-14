@@ -1,0 +1,11 @@
+Named Entity Recognition Wrapper for Twitter Commons Text Processing Library
+
+Usage:
+#Get the NE tagger
+git clone git@github.com:aritter/twitter_nlp.git
+
+#Set environment variable
+export TWITTER_NLP=path_to_twitter_nlp
+
+#Run the example script
+./run.sh

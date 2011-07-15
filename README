@@ -1,5 +1,8 @@
 Named Entity Recognition Wrapper for Twitter Commons Text Processing Library
 
+Requirements:
+32 bit linux
+
 Usage:
 #Get the NE tagger
 git clone git@github.com:aritter/twitter_nlp.git

@@ -13,12 +13,10 @@ public class NamedEntityTypeAttributeImpl extends AttributeImpl implements Named
 	private NamedEntityType type = NamedEntityType.O;
 	private String token;
 
-	@Override
 	public NamedEntityType getType() {
 		return type;
 	}
 
-	@Override
 	public void setType(NamedEntityType type) {
 		this.type = type;
 	}
@@ -47,13 +45,11 @@ public class NamedEntityTypeAttributeImpl extends AttributeImpl implements Named
 		return type.hashCode();
 	}
 
-	@Override
 	public String getToken() {
 		// TODO Auto-generated method stub
 		return this.token;
 	}
 
-	@Override
 	public void setToken(String token) {
 		// TODO Auto-generated method stub
 		this.token = token;

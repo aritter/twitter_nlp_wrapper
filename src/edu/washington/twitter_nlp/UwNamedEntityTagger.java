@@ -77,23 +77,6 @@ public List<NamedEntityTypeAttribute> tokenize(CharSequence input) {
   }
 
   /**
-   * Tokenizes a CharSequnce into a list of CharSequences.
-   *
-   * This method is preferred over
-   * {@link #tokenizeToStrings(CharSequence)} because this method
-   * does not convert CharSequence to String.
-   *
-   * @param input text to be tokenized
-   * @return a list of tokens as CharSequence objects
-   */
-  public List<CharSequence> tokenizeToCharSequences(CharSequence input) {
-    Preconditions.checkNotNull(input);
-    TokenStream tokenizer = getDefaultTokenStream();
-    tokenizer.reset(input);
-    return tokenizer.toCharSequenceList();
-  }
-
-  /**
    * Builder for {@link DefaultTwitterTextTokenizer}
    */
   public static final class Builder {
